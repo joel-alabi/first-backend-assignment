@@ -2,7 +2,7 @@ const express = require('express');
 
 const server = express();
 
-// request handlers
+
 
 const handleMainPatchRequest = (req, res)=>{
     res.send(
